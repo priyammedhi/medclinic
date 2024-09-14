@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: white;
 }
 
 .App-logo {
@@ -35,4 +36,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+.hide-navbar {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-out;
+}
+
+.navbar {
+  transition: transform 0.3s ease-in;
+}
+.more-services-card {
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
