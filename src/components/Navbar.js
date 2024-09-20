@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     const [isVisible, setIsVisible] = useState(true); // Track visibility of the navbar
@@ -6,10 +7,10 @@ function Navbar() {
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 200 && window.scrollY > lastScrollY) {
+            if (window.scrollY > 500 && window.scrollY > lastScrollY) {
                 // User scrolled past 200px and is scrolling down, hide the navbar
                 setIsVisible(false);
-            } else if (window.scrollY < lastScrollY || window.scrollY < 200) {
+            } else if (window.scrollY < lastScrollY || window.scrollY < 500) {
                 // User is scrolling up or hasn't scrolled past 200px, show the navbar
                 setIsVisible(true);
             }
@@ -33,7 +34,7 @@ function Navbar() {
                         padding: '10px',
                         borderRadius: '10px',
                         margin: '15px', // Add 5px margin on the left and right sides
-                        border: '1px solid #ddd'
+                        border: '2px solid #ddd'
                     }}
                 >
                     {/* Navbar brand with white text */}
@@ -55,19 +56,13 @@ function Navbar() {
                         {/* Use ms-auto class to flex the nav items to the right */}
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item me-3">
-                                <a className="nav-link text-white active" aria-current="page" href="#">
-                                    Home
-                                </a>
+                            <Link className="nav-link" to="/">Home</Link>
                             </li>
                             <li className="nav-item me-3">
-                                <a className="nav-link text-white" href="#">
-                                    Services
-                                </a>
+                            <Link className="nav-link" to="/services">Services</Link>
                             </li>
                             <li className="nav-item me-3">
-                                <a className="nav-link text-white" href="#">
-                                    About Us
-                                </a>
+                            <Link className="nav-link" to="/about">About Us</Link>
                             </li>
                             <li className="nav-item">
                                <a href='tel:+4733378901'><button style={{color:'orange'}}  className="btn btn-outline-light">Contact Us</button></a>

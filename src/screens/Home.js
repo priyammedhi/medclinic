@@ -4,6 +4,8 @@ import WhyUs from '../components/WhyUs'
 import Services from '../components/Services'
 import Doctor from '../components/Doctors'
 import Qna from '../components/Qna'
+import MeetOurTeam from '../components/Meetourteam'
+import Contactus from '../components/Contactus'
 
 function Home() {
   return (
@@ -13,6 +15,8 @@ function Home() {
       <Services/>
       <Doctor/>
       <Qna/>
+      <MeetOurTeam/>
+      <Contactus/>
     </div>
   )
 }

@@ -24,7 +24,7 @@ function MoreServicesCard() {
             <div className="h-100 d-flex align-items-center justify-content-center bg-transparent shadow-none">
                 <div className="text-center">
                     <h3 style={{color:'orange'}}>And many more...</h3>
-                    <button className='btn btn-outline-light mt-3'>Explore More</button>
+                    <a href="/services"><button className='btn btn-outline-light mt-3' style={{color:'orange'}}>Explore More</button></a>
                 </div>
             </div>
         </div>
@@ -44,12 +44,19 @@ function Services() {
                         description="Skin tightening machines use a variety of technologies to stimulate collagen and elastin production, which can help firm up sagging skin."
                     />
                     <ServiceCard
-                        title="Vaccinations"
-                        description="Stay protected with our comprehensive vaccination services."
+                        title="Skin Rejuvenation"
+                        description="Skin rejuvenation machines use a variety of technologies to treat
+                        signs of aging, improve skin texture, and promote overall skin
+                        health. They can help with:
+                        Wrinkles & fine Lines"
                     />
                     <ServiceCard
-                        title="Health Education"
-                        description="Empowering you with knowledge for better health."
+                        title="Open Pores Cure"
+                        description="Lasers boost the skin's heating process by stimulating
+                        collagen and elastin production. These two will
+                        effectively minimize the size of open pores caused by
+                        the ageing process and give your skin a smooth and
+                        fresh look."
                     />
                     <MoreServicesCard />
                 </div>

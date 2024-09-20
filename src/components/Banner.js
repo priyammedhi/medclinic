@@ -7,7 +7,7 @@ function Banner() {
                 backgroundImage: `url(${require('../images/momo.jpg')})`,
                 backgroundSize:'cover',
                 backgroundPosition: 'center',
-                padding: '150px 0',
+                padding: '120px 0',
                 textAlign: 'center',
                 boxShadow: 'inset 0 0 0 1000px rgba(76, 148, 108, 0.7)', // Adds a greenish overlay (rgba)
             }}
@@ -40,7 +40,7 @@ function Banner() {
           </p>
         </div>
         <br />
-        <a href="#getinfo">
+        <a href="/about">
           <button
             className="btn btn-outline-light"
             style={{
