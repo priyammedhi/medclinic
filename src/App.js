@@ -15,7 +15,7 @@ function App() {
       <div className="App">
         <Selfscrolltop />
         <Navbar />
-
+        <Home/>
         {/* Define Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
