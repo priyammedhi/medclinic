@@ -32,14 +32,10 @@ function Servicepage() {
     const serviceDetails = {
         "Hydrafacial": {
             image: hydra,
-            description: 'HydraFacials can help with a variety of skin conditions, including: Fine lines and wrinkles, Pigmentation, Acne, Pore size, and Oily skin and congestion. HydraFacials are considered more effective than a typical spa facial and are designed to improve skin health and appearance for up to seven days. They are non-invasive and practically painless, and can be administered by a licensed esthetician, dermatologist, or plastic surgeon.',
-            price: "2499"
-        },
+            description: 'HydraFacials can help with a variety of skin conditions, including: Fine lines and wrinkles, Pigmentation, Acne, Pore size, and Oily skin and congestion. HydraFacials are considered more effective than a typical spa facial and are designed to improve skin health and appearance for up to seven days. They are non-invasive and practically painless, and can be administered by a licensed esthetician, dermatologist, or plastic surgeon.'        },
         "Ultra Therapy": {
             image: ultraTherapy,
-            description: "Ultherapy is a non-invasive, non-surgical procedure that uses ultrasound energy to tighten and lift loose skin and wrinkles. It's FDA approved and is offered by many medical and cosmetic professionals. Ultherapy can be a good option for people who don't want to get a face lift or have a more invasive procedure. There's usually no downtime after treatment, and most people only need one or two treatments. Full results can take three to six months to appear.",
-            price: "1699"
-        },
+            description: "Ultherapy is a non-invasive, non-surgical procedure that uses ultrasound energy to tighten and lift loose skin and wrinkles. It's FDA approved and is offered by many medical and cosmetic professionals. Ultherapy can be a good option for people who don't want to get a face lift or have a more invasive procedure. There's usually no downtime after treatment, and most people only need one or two treatments. Full results can take three to six months to appear."        },
         "Microneedling": {
             image: microneedling,
             description: `Microneedling is a minimally invasive skin treatment that uses tiny needles to stimulate collagen production and treat a variety of skin conditions.
@@ -51,7 +47,6 @@ function Servicepage() {
             Who can get it:
             
             Microneedling is safe for all skin tones.`,
-            price: "1999"
         },
         "Laser Hair Removal": {
             image: laserHairRemoval,
@@ -64,7 +59,6 @@ function Servicepage() {
             Results:
             
             Laser hair removal isn't permanent, but it can reduce the number of unwanted hairs in an area. The hair that grows back is usually finer, lighter, and fewer in number.`,
-            price: "1999"
         },
         "IPL Photofacial": {
             image: iplPhotofacial,
@@ -81,7 +75,6 @@ function Servicepage() {
             Side effects:
             
             After treatment, your skin may appear slightly red and swollen. Freckles and sunspots may initially get darker and flake off within one to three weeks.`,
-            price: "2499"
         },
         "Carbon Facial": {
             image: carbonFacial,
@@ -94,17 +87,14 @@ function Servicepage() {
             Benefits:
             
             Carbon laser peels can help with acne, enlarged pores, oily skin, uneven skin tone, blackheads, dull skin, and rosacea.`,
-            price: "2749"
         },
         "Chemical Peel": {
             image: chemicalPeel,
             description: `A chemical peel is a treatment used to improve and smooth the texture of the skin. The skin on the face is most commonly treated, but peels can also be performed on the body. Chemical peels are intended to remove the outermost layers of the skin.`,
-            price: "1599"
         },
         "Vitalize Peel": {
             image: vitalizePeel,
             description: `Vitalize Peel helps fight the effects of time, sun damage, and environmental aging. This powerful yet non-damaging peel can take years off aging skin. It is perfect for patients with mild to moderate skin conditions, including fine lines and wrinkles, sun damage, pigment irregularities, and acne.`,
-            price: "1599"
         },
         "Veg Peel": {
             image: vegPeel,
@@ -123,7 +113,6 @@ function Servicepage() {
             - Fairer, glowing skin: Vegetable peels can help give you fairer, glowing skin.
             
             - Healthy, radiant skin: Vegetable peels can lead to healthy, radiant skin.`,
-            price: "1899"
         },
         "Skin Texture Improvement": {
             image: skinTexture,
@@ -132,32 +121,26 @@ function Servicepage() {
             Laser resurfacing
             
             Also known as lasabrasion, laser peel, or laser vaporization, this procedure uses a laser beam to remove the epidermis and heat the dermis. This stimulates collagen production, resulting in smoother, firmer skin.`,
-            price: "1699"
         },
         "Acne Scar Removal": {
             image: acneScar,
             description: `Laser treatment for acne scars uses light to destroy the scar tissue on the top layer of the skin and encourages the growth of new healthy skin cells to replace the scar tissue. This treatment won't always get rid of acne scars completely, but it can make them less noticeable and minimize pain.`,
-            price: "3549"
         },
         "Pigmentation removal": {
             image: pigmentation,
             description: `High-energy pulsing lasers can safely and effectively remove many unwanted brown and red spots on your skin, including liver spots, age spots, sun spots, broken capillaries, birthmarks, and angiomas.`,
-            price: "3549            "
         },
         "Birth mark removal": {
             image: birthMark,
             description: `When the laser light enters the skin tissue, it is converted into heat and eliminates blood vessels. For birthmarks that are brown or blue, the laser is used to target and decrease melanin, the substance responsible for skin pigment`,
-            price: "1649            "
         },
         "Finalines & wrinkle cure": {
             image: fineLinesWrinkles,
             description: `There are many ways to reduce the appearance of wrinkles, including prescription creams and serums, Botox injections, chemical peels, facial fillers, laser resurfacing, and face-lifts.`,
-            price: "6999            "
         },
         "Sun damage cure": {
             image: sunDamage,
             description: `Laser therapy can be used to treat sun damage, including brown and red spots, on almost any part of the body. Different types of lasers can address different concerns, such as fine lines, brown spots, and enlarged pores. Laser treatments can take less than 30 minutes, but downtime depends on the type of laser used.`,
-            price: "2699"
         },
         "Skin tone improvement": {
             image: skinTone,
@@ -166,39 +149,32 @@ function Servicepage() {
             Laser skin resurfacing
             
             Also known as a laser peel, this procedure removes the outer layer of skin, called the epidermis, and heats the underlying dermis. This stimulates collagen production and the growth of new skin, which can make skin appear tighter and younger. Laser skin resurfacing can help with wrinkles, age spots, sunspots, redness, rosacea, and acne scarring.`,
-            price: "1749            "
         },
         "Excimer Vitiligo": {
             image: excimerVitiligo,
             description: `Excimer lasers are a type of UV laser that can be used to treat vitiligo, a condition that causes patches of skin to lose color. The laser is used to focus UVB light on the affected areas of skin, which may stimulate repigmentation and restore color.`,
-            price: "3999"
         },
         "Anti puffiness & face lift": {
             image: antiPuffiness,
             description: `Laser treatment for acne scars uses light to destroy the scar tissue on the top layer of the skin and encourages the growth of new healthy skin cells to replace the scar tissue. This treatment won't always get rid of acne scars completely, but it can make them less noticeable and minimize pain.`,
-            price: "3499"
         },
         "Malasma removal": {
             image: malasma,
             description: `Intense pulsed light (IPL) laser uses a broad spectrum of light wavelengths to target hyperpigmented areas directly. The light pulses heat and destroys melanin to remove discoloration and restore a more even complexion.`,
-            price: "2999"
         },
         "Laser helmet": {
             image: laserHelmet,
             description: `Red light therapy is a form of LLLT, also known as photobiomodulation. It uses light of specific wavelengths to stimulate your hair growth.`,
-            price: "2499"
         },
         "Oxygeneo": {
             image: oxygeneo,
             description: `Oxygeneo is a non-invasive facial treatment that uses oxygenation, exfoliation, and infusion to rejuvenate your skin. It's safe for all skin types, ages, and ethnicities.`,
-            price: "1999"
         },
         "Skin tightening": {
             image: skinTightening,
             description: `Skin tightening machines use a variety of technologies to stimulate collagen and elastin production, which can help firm up sagging skin.
 
             Via - RF, Microwaves, Ultrasound etc`,
-            price: "2499"
         },
         "Skin rejuvenation": {
             image: skinRejuvenation,
@@ -207,12 +183,10 @@ function Servicepage() {
             Wrinkles and fine lines
             
             Skin rejuvenation machines can reduce the appearance of wrinkles and fine llins, pigmentation, collagen production, skin tecture, Acne scares, open pores & skin products absorption.`,
-            price: "4799"
         },
         "Open pores cure": {
             image: openPores,
             description: `Lasers boost the skin's healing process by stimulating collagen and elastin production. These two will effectively minimize the size of open pores caused by the ageing process and give your skin a smooth and fresh look. And the results are long-lasting with just two sessions of laser resurfacing.`,
-            price: "1699"
         }
     };
 

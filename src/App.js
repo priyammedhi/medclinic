@@ -8,12 +8,14 @@ import Footer from './components/Footer';
 import Servicepage from './screens/Servicepage';
 import Aboutus from './screens/Aboutus';
 import Selfscrolltop from './components/Selfscrolltop';
+import Whatsappicon from './components/Whatsappicon';
 
 function App() {
   return (
     <Router> {/* Use HashRouter instead of BrowserRouter */}
       <div className="App">
         <Selfscrolltop />
+        <Whatsappicon/>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
