@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/medclinic/static/css/main.8572b49a.css",
-    "main.js": "/medclinic/static/js/main.a21e1d5a.js",
+    "main.js": "/medclinic/static/js/main.c770a893.js",
     "static/js/453.4da0fcea.chunk.js": "/medclinic/static/js/453.4da0fcea.chunk.js",
     "static/media/cum5.jpg": "/medclinic/static/media/cum5.c706e9b2237a34f27891.jpg",
     "static/media/dr3.jpg": "/medclinic/static/media/dr3.30c5f7167fd9155dca5d.jpg",
@@ -43,11 +43,11 @@
     "static/media/ipl.jpg": "/medclinic/static/media/ipl.dc53440bbf1364b235f9.jpg",
     "index.html": "/medclinic/index.html",
     "main.8572b49a.css.map": "/medclinic/static/css/main.8572b49a.css.map",
-    "main.a21e1d5a.js.map": "/medclinic/static/js/main.a21e1d5a.js.map",
+    "main.c770a893.js.map": "/medclinic/static/js/main.c770a893.js.map",
     "453.4da0fcea.chunk.js.map": "/medclinic/static/js/453.4da0fcea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8572b49a.css",
-    "static/js/main.a21e1d5a.js"
+    "static/js/main.c770a893.js"
   ]
 }
