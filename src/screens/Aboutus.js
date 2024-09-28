@@ -18,7 +18,7 @@ function Aboutus() {
                 <h1 style={{ color: 'orange', fontFamily: 'Playfair Display', fontSize: '4rem', fontWeight: 'bolder' }}>ABOUT US</h1>
                 <p style={{ color: 'white', fontSize: '1.5rem', fontFamily: 'Georgia', margin: '0 60px' }}>The Skin Science Solution (S3) Center is committed to staying at the forefront of the latest advancements in skin care and aesthetics. Their comprehensive range of services, from skin rejuvenation to face and body sculpting, demonstrates their ability to address a wide spectrum of skin concerns, ensuring clients receive the most effective and personalized treatments available.
                 </p><br />
-                <a href="#getinfo"><button className='btn btn-outline-light' style={{ color: 'orange', fontSize: '25px', padding: '15px 35px', borderRadius: '50px' }}>OUR SERVICES</button></a>
+                <a href="/services"><button className='btn btn-outline-light' style={{ color: 'orange', fontSize: '25px', padding: '15px 35px', borderRadius: '50px' }}>OUR SERVICES</button></a>
             </div>
             {/* <div className="row d-flex align-items-center justify-content-center">
                 <h2>From the Owner</h2>

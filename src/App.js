@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Use HashRouter
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Use BrowserRouter
 import Navbar from './components/Navbar';
 import Home from './screens/Home';
 import Footer from './components/Footer';
@@ -12,10 +12,10 @@ import Whatsappicon from './components/Whatsappicon';
 
 function App() {
   return (
-    <Router> {/* Use HashRouter instead of BrowserRouter */}
+    <Router> {/* Now using BrowserRouter */}
       <div className="App">
         <Selfscrolltop />
-        <Whatsappicon/>
+        <Whatsappicon />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

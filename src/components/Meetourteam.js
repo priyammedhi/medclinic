@@ -1,6 +1,8 @@
 import React from 'react';
 import dr1 from '../images/dr1.jpg'
 import dr2 from '../images/dr2.jpg'
+import dr3 from '../images/dr3.jpg'
+
 
 const teamMembers = [
     {
@@ -10,11 +12,17 @@ const teamMembers = [
         image: dr1, // Replace with actual image path
     },
     {
-        name: 'Dhanvi Borah',
-        title: 'Aesthetic Specialist',
-        bio: 'Specializes in skin aesthetics and body contouring. With years of experience, she ensures customized treatments tailored to each client\'s needs.',
+        name: 'Dr. Bhavit Bansal',
+        title: 'Consultant Doctor',
+        bio: 'Dr. Bhavit Bansal is an Integrative Medicine specialist with over five years of clinical experience from NIMHANS. He focuses on holistic care, treating lifestyle disorders, mental health issues, metabolic and neurological disorders, chronic back pain, and arthritis. Dr. Bansal offers personalized therapies such as yoga, diet counseling, acupuncture, and naturopathy, empowering patients to take control of their health.',
         image: dr2, // Replace with actual image path
     },
+    {
+        name: 'Dhanvi Borah',
+        title: 'Dental Consultant Doctor',
+        bio: 'Dr. Kuhina Changkakoti is a Dental Surgeon with 10 years of experience, specializing in general, cosmetic, and restorative dentistry, as well as root canal treatment, orthodontics, and implantology. She is dedicated to delivering personalized care, ensuring each patient receives tailored treatments for optimal oral health. Dr. Changkakoti emphasizes a comfortable and informative experience, empowering patients to take charge of their dental well-being and achieve a radiant smile.',
+        image: dr3, // Replace with actual image path
+    }
 ];
 
 const MeetOurTeam = () => {
