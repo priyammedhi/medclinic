@@ -25,13 +25,13 @@ function Footer() {
                     }}>
                         <ul className="list-unstyled d-lg-block d-flex justify-content-center" style={{ margin: 0, padding: 0 }}>
                             <li style={{ marginBottom: '10px', marginRight: '15px' }}>
-                                <a href="#" aria-label="Home" style={{ textDecoration: 'none', color: '#000' }}>Home</a>
+                                <a href="/" aria-label="Home" style={{ textDecoration: 'none', color: '#000' }}>Home</a>
                             </li>
                             <li style={{ marginBottom: '10px', marginRight: '15px' }}>
-                                <a href="#" aria-label="About Us" style={{ textDecoration: 'none', color: '#000' }}>About Us</a>
+                                <a href="/about" aria-label="About Us" style={{ textDecoration: 'none', color: '#000' }}>About Us</a>
                             </li>
                             <li style={{ marginBottom: '10px', marginRight: '15px' }}>
-                                <a href="#" aria-label="Services" style={{ textDecoration: 'none', color: '#000' }}>Services</a>
+                                <a href="/services" aria-label="Services" style={{ textDecoration: 'none', color: '#000' }}>Services</a>
                             </li>
                             <li style={{ marginBottom: '10px' }}>
                                 <a href="tel:+919101832431" aria-label="Make Appointment" style={{ textDecoration: 'none' }}>
