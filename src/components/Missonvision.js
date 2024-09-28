@@ -35,7 +35,7 @@ function Missonvision() {
                         <p>
                             Leveraging its track record for medical excellence, our hospital is committed to making a difference in people’s lives through excellent patient care, steadily expanding its reach in markets where demand for quality care is strong and growing. We are a one-stop destination for all your healthcare needs, equipped with the most advanced diagnostic tools and technologies sourced from around the world. Our hospital has an experienced team of lab technicians who are capable of conducting 100% accurate test results. With state-of-the-art technologies and best lab tests, we ensure that you get the best treatment and care.
                         </p>
-                        <button className="contact-button">Contact Us</button>
+                        <a href="tel:+4733378901"><button  className="contact-button">Contact Us</button></a>
                     </div>
                 </div>
 
