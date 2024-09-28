@@ -17,9 +17,8 @@ function App() {
         <Selfscrolltop />
         <Whatsappicon />
         <Navbar />
-        <Home/>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/mediclinic" element={<Home />} />
           <Route path="/services" element={<Servicepage />} />
           <Route path="/about" element={<Aboutus />} />
         </Routes>
