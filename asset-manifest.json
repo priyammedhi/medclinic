@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/medclinic/static/css/main.8572b49a.css",
-    "main.js": "/medclinic/static/js/main.f1978b4d.js",
-    "static/js/453.050d0ddf.chunk.js": "/medclinic/static/js/453.050d0ddf.chunk.js",
+    "main.js": "/medclinic/static/js/main.aee96204.js",
+    "static/js/453.4da0fcea.chunk.js": "/medclinic/static/js/453.4da0fcea.chunk.js",
     "static/media/cum5.jpg": "/medclinic/static/media/cum5.c706e9b2237a34f27891.jpg",
-    "static/media/care.jpg": "/medclinic/static/media/care.180ff051bd4aad3fc73e.jpg",
+    "static/media/dr3.jpg": "/medclinic/static/media/dr3.30c5f7167fd9155dca5d.jpg",
     "static/media/docequip.jpg": "/medclinic/static/media/docequip.66b8304c4d90828cc8d4.jpg",
     "static/media/momo.png": "/medclinic/static/media/momo.19c8620bad874ce8de36.png",
+    "static/media/bhavit.png": "/medclinic/static/media/bhavit.ecb469c2a5e55c5cc255.png",
     "static/media/skintextureimprovement.jpg": "/medclinic/static/media/skintextureimprovement.15c01676548895214da5.jpg",
-    "static/media/dr2.jpg": "/medclinic/static/media/dr2.ae2cc3b55d802863a6e1.jpg",
+    "static/media/dr2.jpg": "/medclinic/static/media/dr2.ffbfc4c16b9b8f92c0de.jpg",
     "static/media/dr1.jpg": "/medclinic/static/media/dr1.6d81b3d435e1f7063f0f.jpg",
     "static/media/anti puffiness.jpg": "/medclinic/static/media/anti puffiness.a705cd35b4e3f0a6caa9.jpg",
+    "static/media/care.jpg": "/medclinic/static/media/care.7df5fd84950b4c1b7357.jpg",
     "static/media/acne_scar removal.jpg": "/medclinic/static/media/acne_scar removal.d7c02e359eff89c67f16.jpg",
     "static/media/malasma_removal.jpg": "/medclinic/static/media/malasma_removal.0e92d9a0dfcbcc537b30.jpg",
     "static/media/wrinkles.jpg": "/medclinic/static/media/wrinkles.db465d5b17a552b2d0c8.jpg",
@@ -33,6 +35,7 @@
     "static/media/skin_Tone_improvement.jpg": "/medclinic/static/media/skin_Tone_improvement.289a272d912c0d67f9bd.jpg",
     "static/media/skintightning.jpg": "/medclinic/static/media/skintightning.d7c740c435df1df52fa8.jpg",
     "static/media/birthmark_removal.jpg": "/medclinic/static/media/birthmark_removal.a442c28dc3a8f1887457.jpg",
+    "static/media/kuhina.png": "/medclinic/static/media/kuhina.d67ff9c62e3c91d1ffe3.png",
     "static/media/microneedeling.jpg": "/medclinic/static/media/microneedeling.feb3c3e6d528539b3f9d.jpg",
     "static/media/virtiligo.jpg": "/medclinic/static/media/virtiligo.22d69215158855ea2dc2.jpg",
     "static/media/veg_peel.jpg": "/medclinic/static/media/veg_peel.42451b8db5af1fc80591.jpg",
@@ -40,11 +43,11 @@
     "static/media/ipl.jpg": "/medclinic/static/media/ipl.dc53440bbf1364b235f9.jpg",
     "index.html": "/medclinic/index.html",
     "main.8572b49a.css.map": "/medclinic/static/css/main.8572b49a.css.map",
-    "main.f1978b4d.js.map": "/medclinic/static/js/main.f1978b4d.js.map",
-    "453.050d0ddf.chunk.js.map": "/medclinic/static/js/453.050d0ddf.chunk.js.map"
+    "main.aee96204.js.map": "/medclinic/static/js/main.aee96204.js.map",
+    "453.4da0fcea.chunk.js.map": "/medclinic/static/js/453.4da0fcea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8572b49a.css",
-    "static/js/main.f1978b4d.js"
+    "static/js/main.aee96204.js"
   ]
 }
