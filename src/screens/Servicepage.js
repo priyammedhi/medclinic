@@ -250,9 +250,6 @@ function Servicepage() {
                             <p style={{ fontSize: '1.2rem', color: 'white', marginTop: '10px', textAlign: 'justify', fontFamily: 'Playfair Display' }}>
                                 {serviceDetails[selectedService]?.description}
                             </p>
-                            <p style={{ fontSize: '1.2rem', color: 'white', marginTop: '10px', textAlign: 'left', fontFamily: 'Playfair Display' }}>
-                                <strong>Pricing : ₹</strong> <strong>{serviceDetails[selectedService]?.price}</strong>
-                            </p>
                         </div>
                     </div>
 
