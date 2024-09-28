@@ -40,7 +40,7 @@ function Banner() {
           </p>
         </div>
         <br />
-        <a href="/about">
+        <a href="/medclinic/about">
           <button
             className="btn btn-outline-light"
             style={{
