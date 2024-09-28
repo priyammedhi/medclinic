@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Use BrowserRouter
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './screens/Home';
 import Footer from './components/Footer';
@@ -12,13 +12,13 @@ import Whatsappicon from './components/Whatsappicon';
 
 function App() {
   return (
-    <Router> {/* Now using BrowserRouter */}
+    <Router basename="/medclinic"> {/* Add basename */}
       <div className="App">
         <Selfscrolltop />
         <Whatsappicon />
         <Navbar />
         <Routes>
-          <Route path="/mediclinic" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/services" element={<Servicepage />} />
           <Route path="/about" element={<Aboutus />} />
         </Routes>
