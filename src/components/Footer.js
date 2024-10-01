@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function Footer() {
     return (
@@ -25,13 +27,13 @@ function Footer() {
                     }}>
                         <ul className="list-unstyled d-lg-block d-flex justify-content-center" style={{ margin: 0, padding: 0 }}>
                             <li style={{ marginBottom: '10px', marginRight: '15px' }}>
-                                <a href="/" aria-label="Home" style={{ textDecoration: 'none', color: '#000' }}>Home</a>
+                                <Link to="/" aria-label="Home" style={{ textDecoration: 'none', color: '#000' }}>Home</Link>
                             </li>
                             <li style={{ marginBottom: '10px', marginRight: '15px' }}>
-                                <a href="/about" aria-label="About Us" style={{ textDecoration: 'none', color: '#000' }}>About Us</a>
+                                <Link to="/about" aria-label="About Us" style={{ textDecoration: 'none', color: '#000' }}>About Us</Link>
                             </li>
                             <li style={{ marginBottom: '10px', marginRight: '15px' }}>
-                                <a href="/services" aria-label="Services" style={{ textDecoration: 'none', color: '#000' }}>Services</a>
+                                <Link href="/services" aria-label="Services" style={{ textDecoration: 'none', color: '#000' }}>Services</Link>
                             </li>
                             <li style={{ marginBottom: '10px' }}>
                                 <a href="tel:+919101832431" aria-label="Make Appointment" style={{ textDecoration: 'none' }}>

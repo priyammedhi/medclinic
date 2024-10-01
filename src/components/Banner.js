@@ -1,17 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Banner() {
   return (
     <div>
       <div className="epic-services-section" style={{
-                backgroundImage: `url(${require('../images/momo.jpg')})`,
-                backgroundSize:'cover',
-                backgroundPosition: 'center',
-                padding: '120px 0',
-                textAlign: 'center',
-                boxShadow: 'inset 0 0 0 1000px rgba(76, 148, 108, 0.7)', // Adds a greenish overlay (rgba)
-            }}
-            >
+        backgroundImage: `url(${require('../images/momo.jpg')})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        padding: '120px 0',
+        textAlign: 'center',
+        boxShadow: 'inset 0 0 0 1000px rgba(76, 148, 108, 0.7)', // Adds a greenish overlay (rgba)
+      }}
+      >
         <h1
           style={{
             color: 'orange',
@@ -23,9 +24,9 @@ function Banner() {
           Welcome to Skin Science Solution
         </h1>
         <div style={{
-            display: 'flex',
-            justifyContent: 'center', // Centers the paragraph container
-            textAlign: 'justify',
+          display: 'flex',
+          justifyContent: 'center', // Centers the paragraph container
+          textAlign: 'justify',
         }}>
           <p style={{
             color: 'white',
@@ -40,19 +41,19 @@ function Banner() {
           </p>
         </div>
         <br />
-        <a href="/medclinic/about">
+        <Link to="/about">
           <button
             className="btn btn-outline-light"
             style={{
               fontSize: '25px',
               padding: '15px 35px',
               borderRadius: '50px',
-              color:'orange'
+              color: 'orange'
             }}
           >
             Learn More
           </button>
-        </a>
+        </Link>
       </div>
     </div>
   );
