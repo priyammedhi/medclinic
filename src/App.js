@@ -12,7 +12,7 @@ import Whatsappicon from './components/Whatsappicon';
 
 function App() {
   return (
-    <Router basename="/medclinic"> {/* Add basename */}
+    <Router basename={process.env.PUBLIC_URL || "/"}> {/* Dynamically set basename */}
       <div className="App">
         <Selfscrolltop />
         <Whatsappicon />
