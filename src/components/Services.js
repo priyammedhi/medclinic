@@ -25,7 +25,7 @@ function MoreServicesCard() {
             <div className="h-100 d-flex align-items-center justify-content-center bg-transparent shadow-none">
                 <div className="text-center">
                     <h3 style={{color:'orange'}}>And many more...</h3>
-                    <Link to="/service"><button className='btn btn-outline-light mt-3' style={{color:'orange'}}>Explore More</button></Link>
+                    <Link to="/services"><button className='btn btn-outline-light mt-3' style={{color:'orange'}}>Explore More</button></Link>
                 </div>
             </div>
         </div>
