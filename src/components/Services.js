@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Card component for each service
 function ServiceCard({ image, title, description }) {
@@ -24,7 +25,7 @@ function MoreServicesCard() {
             <div className="h-100 d-flex align-items-center justify-content-center bg-transparent shadow-none">
                 <div className="text-center">
                     <h3 style={{color:'orange'}}>And many more...</h3>
-                    <a href="/services"><button className='btn btn-outline-light mt-3' style={{color:'orange'}}>Explore More</button></a>
+                    <Link to="/service"><button className='btn btn-outline-light mt-3' style={{color:'orange'}}>Explore More</button></Link>
                 </div>
             </div>
         </div>
